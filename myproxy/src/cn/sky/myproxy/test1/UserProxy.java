@@ -1,5 +1,7 @@
 package cn.sky.myproxy.test1;
 
+import cn.sky.myproxy.bean.User;
+
 public class UserProxy extends User {
 	private User target;
 
@@ -9,11 +11,9 @@ public class UserProxy extends User {
 	}
 
 	@Override
-	public String getName() {
-		long t1 = System.currentTimeMillis();
-		String name = target.getName();
-		long t2 = System.currentTimeMillis();
-		System.out.println("it takes time :"+(t2-t1)+"ms");
-		return name;
+	public void printName() {
+		System.out.println("before");
+		target.printName();
+		System.out.println("after");
 	}
 }
