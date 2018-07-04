@@ -1,6 +1,6 @@
 package cn.sky.myproxy.bean;
 
-public class User {
+public class User implements Runnable{
 	private String name;
 
 	public void printName() {
@@ -10,6 +10,11 @@ public class User {
 	public User() {}
 	public User(String name) {
 		this.name = name;
+	}
+
+	@Override
+	public void run() {
+		System.out.println("run...");
 	}
 
 }
