@@ -1,4 +1,4 @@
-package cn.sky.myproxy.bean;
+package cn.sky.myproxy.test.bean;
 
 public class Animal {
 	public void run() {

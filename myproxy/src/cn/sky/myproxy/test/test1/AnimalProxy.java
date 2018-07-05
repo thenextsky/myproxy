@@ -1,6 +1,6 @@
-package cn.sky.myproxy.test1;
+package cn.sky.myproxy.test.test1;
 
-import cn.sky.myproxy.bean.Animal;
+import cn.sky.myproxy.test.bean.Animal;
 
 public class AnimalProxy extends Animal{
 	private Animal target;

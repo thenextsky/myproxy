@@ -1,6 +1,6 @@
-package cn.sky.myproxy.test1;
+package cn.sky.myproxy.test.test1;
 
-import cn.sky.myproxy.bean.User;
+import cn.sky.myproxy.test.bean.User;
 
 public class UserProxy extends User {
 	private User target;

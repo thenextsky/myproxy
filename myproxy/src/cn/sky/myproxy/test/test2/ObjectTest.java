@@ -1,4 +1,4 @@
-package cn.sky.myproxy.test2;
+package cn.sky.myproxy.test.test2;
 
 import org.junit.Test;
 

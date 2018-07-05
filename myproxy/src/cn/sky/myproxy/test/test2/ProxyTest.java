@@ -1,9 +1,9 @@
-package cn.sky.myproxy.test2;
+package cn.sky.myproxy.test.test2;
 
 import org.junit.Test;
 
 import cn.sky.myproxy.SuperTest;
-import cn.sky.myproxy.bean.User;
+import cn.sky.myproxy.test.bean.User;
 
 public class ProxyTest extends SuperTest{
 	@Test

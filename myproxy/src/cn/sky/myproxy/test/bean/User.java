@@ -1,4 +1,4 @@
-package cn.sky.myproxy.bean;
+package cn.sky.myproxy.test.bean;
 
 public class User implements Runnable{
 	private String name;
