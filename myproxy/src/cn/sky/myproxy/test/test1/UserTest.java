@@ -2,7 +2,7 @@ package cn.sky.myproxy.test.test1;
 
 import org.junit.Test;
 
-import cn.sky.myproxy.SuperTest;
+import cn.sky.myproxy.test.SuperTest;
 import cn.sky.myproxy.test.bean.User;
 
 public class UserTest extends SuperTest {
