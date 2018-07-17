@@ -8,6 +8,12 @@ import java.io.IOException;
 public class FileUtil {
 	public static void writeToFile(String filepath,byte[] data) {
 		File file = new File(filepath);
+		File parent = file.getParentFile();
+		if(!parent.exists()) {
+			if(!parent.mkdirs()) {
+				throw new RuntimeException("创建路径失败！");
+			}
+		}
 		FileOutputStream fos = null;
 		try {
 			fos = new FileOutputStream(file,false);
